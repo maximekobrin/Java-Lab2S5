@@ -1,3 +1,5 @@
+package Package2;
+
 import java.io.*;
 import java.util.ArrayList;
 
@@ -13,7 +15,7 @@ public class BarManager implements Bar {
         System.out.println(drinkName + " added to the menu for $" + price);
 
         // Example of using try/catch with I/O (writing to file)
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("drinks.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Package2/drinks.txt", true))) {
             writer.write(drinkName + " - $" + price);
             writer.newLine();
         } catch (IOException e) {
@@ -46,7 +48,7 @@ public class BarManager implements Bar {
 
     // Extra method: display menu and demonstrate ArrayList
     public void showMenu() {
-        System.out.println("\n--- Bar Menu ---");
+        System.out.println("\n--- Package2.Bar Menu ---");
         for (String d : drinks) {
             System.out.println(d);
         }
@@ -55,7 +57,7 @@ public class BarManager implements Bar {
     // Demonstrate reading from file
     public void readMenuFromFile() {
         System.out.println("\n--- Reading drinks from file ---");
-        try (BufferedReader reader = new BufferedReader(new FileReader("drinks.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("Package2/drinks.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);

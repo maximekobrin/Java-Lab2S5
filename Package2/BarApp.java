@@ -1,3 +1,5 @@
+package Package2;
+
 public class BarApp {
     public static void main(String[] args) {
         try {

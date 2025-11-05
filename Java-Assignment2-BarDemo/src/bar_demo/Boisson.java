@@ -24,7 +24,7 @@ public class Boisson {
     }
 
     public static void welcome() {
-        System.out.println("🍸 Welcome to the Java Bar!");
+        System.out.println("🍸 Welcome to the Java Package2.Bar!");
         System.out.println("Enjoy our best drinks!");
     }
 

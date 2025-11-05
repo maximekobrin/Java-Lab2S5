@@ -17,7 +17,7 @@ public class BarApp {
 
         try {
             FileWriter writer = new FileWriter("bar_output.txt");
-            writer.write("=== Java Bar Summary ===\n");
+            writer.write("=== Java Package2.Bar Summary ===\n");
             writer.write("Drink 1: " + juice.name + " - " + juice.getPrice() + " €\n");
             writer.write("Drink 2: " + mojito.name + " - " + mojito.getPrice() + " €\n");
             writer.close();
