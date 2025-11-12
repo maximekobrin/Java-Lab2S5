@@ -6,8 +6,8 @@ This project is part of the EFREI Java Lab #2.
 
 ## Package
 **bar_demo** contains:
-- `Boisson.java`: superclass with base attributes and methods  
-- `Cocktail.java`: subclass that overrides and extends functionality  
+- `bar_demo.Boisson.java`: superclass with base attributes and methods  
+- `bar_demo.Cocktail.java`: subclass that overrides and extends functionality  
 - `Package2.BarApp.java`: main entry point of the application  
 
 ## Run Instructions
