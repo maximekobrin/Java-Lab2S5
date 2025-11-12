@@ -1,8 +1,8 @@
 # Java Package2.Bar Demo 🍸
-
+Made by Maxime Kobrin & Antonin Victorion (Group 1)
 ## Description
 A simple Java OOP demo using inheritance, polymorphism, and file I/O.
-This project is part of the EFREI Java Lab #2.
+This project is part of the EFREI Java Lab #2
 
 ## Package
 **bar_demo** contains:
